@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcomeMs{
+    padding-top: 30px;
+    font-size: 30px;
+   text-align: center;
+   height: fit-content;
+
+   background-color: yellow;
+}
+.mac{
+ text-shadow: 2px 2px 2px rgb(59, 66, 165);
+}
+
+
+@media screen and (max-width:700px) {
+    .welcomeMs{
+        padding: 20px;
+       
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    }
+    
+      }
+      .move{
+        position: absolute;
+        margin-top: -53%;
+        text-align: center;
+        font-weight: 30em;
+        align-items: center;
+        justify-content: center;
+        margin-left: 17%;
+        width: 50%;
+        font-size: 30px;
+        color: rgb(252, 255, 255);
+        text-shadow: 2px 3px 3px black;
+
+      }
+      .animate{
+        width: 100%;
+       
+      }
+
+.move{
+    text-align: center;
+    font-size: 43px;
+    font-style: italic;
+
+}
+.mobile{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+     gap: 2px;
+     background-color: black;
+     color: aliceblue;
+}
+.name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    text-align: center;
+    
+}
+.sub{
+   padding: 10px;
+   width: fit-content;
+   font-size: 20px;
+}
+.sub img{
+    width:100%;
+}
+.price{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(248, 104, 8);
+}
+@media screen and (max-width:700px) {
+    .mobile{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        background-color: rgba(0, 0, 0, 0.897);
+    }
+    .name{
+        font-size: 12px;
+        color: aliceblue;
+    }
+    .price{
+        font-size: 12px;
+    }
+}

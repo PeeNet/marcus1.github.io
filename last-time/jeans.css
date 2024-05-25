@@ -1,0 +1,131 @@
+*{margin: 0;
+ padding: 0;
+}
+
+.top-navbar{
+    position:relative;
+   margin-top: -5%;
+}
+.top{
+    margin-top: 0;
+    width: 100%;
+   text-align: center;
+   font-size: 30px;
+   padding: 10px;
+    height: fit-content;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 251, 0);
+}
+
+.top h3{
+    font-size: 42px;
+    text-shadow: 12px 13px 14px black;
+    color: rgb(70, 1, 49);}
+
+.top a{
+    color: greenyellow;
+   
+}
+ .jeans{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 6px;
+    width: 100%;
+    text-align: center;
+   
+
+}
+
+.item img{
+    width: 60%;
+    
+}
+@media screen and (max-width:700px) {
+ 
+    .jeans{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-size: 9px;
+       
+    }
+    .text{
+        padding: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+    }
+    .top{
+        margin-top:0 ;
+    }
+}
+.item {
+    background-color: rgb(53, 50, 50);
+    padding: 40px;
+    border-radius: 10px;
+    flex: 1 0 5rem;
+    color: aliceblue;
+} 
+.jeans{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: fit-content;
+    position: relative;
+    gap: 0;
+    padding: 10px;
+
+}
+.item{
+    width: 100%;
+ color: rgb(8, 8, 8);
+ width: fit-content;
+ height: fit-content;
+margin: 10px;
+ box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.281);
+ align-items: center;
+ text-align: center;
+ padding: 10px;
+ background-color: rgb(253, 253, 252);
+}
+body{background-color: rgba(255, 254, 254, 0.329);}
+.PRICE{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    padding: 10px;
+}
+.item img{
+    width: 70%;
+}
+@media screen and (max-width:700px) 
+{
+   .jeans{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }    .PRICE{
+    font-size: 13px;
+    font-style: italic;
+    
+}
+}
+.animate{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    inset: -14000px  0 auto;
+   align-items: center;
+   background-color: rgb(243, 214, 51);
+}
+.videoje video{
+    width:400px ;
+}
+@media screen and ( max-width:700px) 
+{ 
+    .animate{
+        position: relative;
+        inset: 0 0 0 auto;
+        z-index: -1;
+        width: 430px;
+        margin-left: -3%;
+        margin-top: -7%;
+    }
+    
+}
